@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 // ✏️ UPDATE THESE with your real details
-const EMAIL = "info@mjelitecreatives.com";
+const EMAIL = "jocefmynah589@gmail.com";
 const WHATSAPP = "254717813478";
 const FORMSPREE_URL = "https://formspree.io/f/xzdjlgjd";
 
