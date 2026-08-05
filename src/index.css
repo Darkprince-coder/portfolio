@@ -27,20 +27,20 @@
   }
 
   ::selection {
-    background: #C84B2F;
-    color: #F7F4EF;
+    background: #1B6BFF;
+    color: #F4F7FB;
   }
 
   .dark ::selection {
-    background: #FF6B47;
-    color: #0D1117;
+    background: #5FA3FF;
+    color: #050F1A;
   }
 
   ::-webkit-scrollbar { width: 4px; }
-  ::-webkit-scrollbar-track { background: #F7F4EF; }
-  ::-webkit-scrollbar-thumb { background: #C84B2F; border-radius: 4px; }
-  .dark ::-webkit-scrollbar-track { background: #0D1117; }
-  .dark ::-webkit-scrollbar-thumb { background: #FF6B47; }
+  ::-webkit-scrollbar-track { background: #F4F7FB; }
+  ::-webkit-scrollbar-thumb { background: #1B6BFF; border-radius: 4px; }
+  .dark ::-webkit-scrollbar-track { background: #050F1A; }
+  .dark ::-webkit-scrollbar-thumb { background: #5FA3FF; }
 }
 
 @layer utilities {
@@ -64,11 +64,11 @@
 
   /* Dark mode glow effects */
   .dark .dm-glow {
-    box-shadow: 0 0 20px rgba(255, 107, 71, 0.15);
+    box-shadow: 0 0 20px rgba(95, 163, 255, 0.18);
   }
 
   .dark .dm-glow-subtle {
-    box-shadow: 0 0 40px rgba(255, 107, 71, 0.06), 0 1px 3px rgba(0,0,0,0.4);
+    box-shadow: 0 0 40px rgba(95, 163, 255, 0.08), 0 1px 3px rgba(0,0,0,0.4);
   }
 
   .animate-delay-100 { animation-delay: 100ms; }

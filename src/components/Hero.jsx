@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from "react";
 // ✏️ Add your photo or brand image:
 // 1. Place image in /public folder e.g. public/brand-photo.jpg
 // 2. Change PHOTO_SRC to "/brand-photo.jpg"
-const PHOTO_SRC = "/profilephoto.JPG";
+const PHOTO_SRC = "/profilephoto.jpeg";
 
 export default function Hero() {
   const ref = useRef(null);
@@ -40,25 +40,24 @@ export default function Hero() {
         <div className="grid md:grid-cols-12 gap-10 items-center">
           <div className="md:col-span-7 order-2 md:order-1">
             <h1 className="h-reveal font-display font-black text-5xl md:text-6xl lg:text-7xl leading-[0.95] tracking-tight text-ink dark:text-dm-text">
-              We build fast,<br />
-              <em className="text-accent dark:text-dm-accent not-italic">modern</em> sites<br />
-              that turn visitors<br />
+              MJ Elite Creatives builds fast,<br />
+              <em className="text-accent dark:text-dm-accent not-italic">modern</em> brand experiences<br />
+              that move businesses<br />
               into{" "}
               <span className="relative inline-block">
-                customers.
+                momentum.
                 <span className="absolute -bottom-1 left-0 right-0 h-1 bg-highlight dark:bg-dm-amber opacity-60" />
               </span>
             </h1>
 
             <p className="h-reveal font-body text-base text-muted dark:text-dm-muted leading-relaxed mt-6 max-w-md">
-              We help brands and businesses create clean, responsive websites using modern
-              tools and AI-powered workflows delivered faster than you'd expect.
+              We create standout digital experiences with clean design, fast Next.js builds, and powerful backend integrations that help your brand grow.
             </p>
 
             <div className="h-reveal flex flex-wrap gap-3 mt-8">
               <a href="#projects"
                 className="inline-flex items-center gap-2 px-6 py-3.5 bg-ink dark:bg-dm-accent text-canvas dark:text-white font-body font-medium text-sm hover:bg-accent dark:hover:bg-dm-accent/80 transition-colors duration-300">
-                View Our Work <span>↓</span>
+                Explore Our Brand Work <span>↓</span>
               </a>
               <a href="#contact"
                 className="inline-flex items-center gap-2 px-6 py-3.5 border border-ink dark:border-dm-border text-ink dark:text-dm-text font-body font-medium text-sm hover:border-accent dark:hover:border-dm-accent hover:text-accent dark:hover:text-dm-accent transition-colors duration-300">
@@ -88,7 +87,7 @@ export default function Hero() {
                       </svg>
                     </div>
                     <p className="font-mono text-xs text-muted dark:text-dm-subtle text-center px-4 leading-relaxed">
-                      Profile Photo
+                      MJ Elite Creatives
                     </p>
                   </div>
                 )}

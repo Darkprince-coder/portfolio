@@ -3,49 +3,21 @@ import React, { useEffect, useRef } from "react";
 const projects = [
   {
     id: "01",
-    name: "OFFGRID.KE",
-    outcome: "A clean, fast website for an off-grid energy business in Kenya. Built to inform and convert visitors into leads mobile-optimised with a modern layout and clear service sections.",
-    stack: ["React", "Tailwind CSS", "Decap CMS"],
-    live: "https://offgrid.ke",
-    tag: "Business",
-    image: "/offgrid.png",
+    name: "SOKOBASE.CO.KE",
+    outcome: "A modern Next.js marketplace for Kenyan merchants and customers. Built with Supabase and Cloudinary to deliver fast product discovery, secure storefronts, and a polished shopping experience.",
+    stack: ["Next.js", "Tailwind CSS", "Module CSS", "Supabase", "Cloudinary"],
+    live: "https://sokobase.co.ke",
+    tag: "Marketplace",
+    image: "/sokobase.png",
   },
   {
     id: "02",
-    name: "Tebah Lights E-Commerce",
-    outcome: "A full e-commerce storefront for a lights and electrical shop product listings, add-to-cart functionality, and a smooth checkout flow. Built to replace manual order-taking with a real online store.",
-    stack: ["HTML", "CSS", "JavaScript"],
-    live: "https://tebahlightsfitting.netlify.app/",
-    tag: "E-Commerce",
-    image: "/tebahmockup.png",
-  },
-  {
-    id: "03",   
-    name: "FLO Landing Page",
-    outcome: "A SaaS-style marketing landing page for a fictional project management tool. Features animated sections, a product mockup, pricing table, testimonials, and FAQ  built to demonstrate modern frontend capability.",
-    stack: ["React", "Tailwind CSS"],
-    live: "https://flolanding.netlify.app/",
-    code: "https://github.com/Darkprince-coder/flo",
-    tag: "SaaS",
-    image: "/flolanding.png",
-  },
-  {
-    id: "04", name: "GUEST MANAGEMENT SYSTEM",
-    outcome: "A web-based reception system for managing hotel or event check-ins. Handles guest booking forms, records, and status tracking replacing paper registers with a clean digital workflow.",
-    stack: ["HTML", "CSS", "JavaScript"],
-    live: "https://sunsetcheckin.netlify.app/",
-    tag: "software",
-    image: "/guestsystem.png",
-  },
-  {
-    id: "05",
-    name: "ZURI RESTARAUNT",
-    outcome: "A full restaurant website for a fine dining concept in Nairobi. Built to attract reservations and communicate the brand before a guest even walks through the door. Features a full menu with category filtering, an online reservation form, photo gallery, and a story section everything a real restaurant needs to convert visitors into bookings.",
-    stack: ["React", "Tailwind CSS"],
-    live: "https://zuridiner.netlify.app/",
-    code: "https://github.com/Darkprince-coder/zuri-restaraunt",
-    tag: "Hospitality",
-    image: "/zuri.png",
+    name: "ARENABASE.CO.KE",
+    outcome: "A local sports hub for Kajiado football fixtures, results, tournaments, and announcements. Built to keep fans, teams, and organizers connected through one clean, content-driven platform.",
+    stack: ["Next.js", "Tailwind CSS", "Module CSS", "Supabase", "Cloudinary"],
+    live: "https://arenabase.co.ke",
+    tag: "Sports",
+    image: "/arenabase.png",
   },
 ];
 
@@ -108,10 +80,6 @@ function ProjectCard({ project, index }) {
           <a href={project.live}
             className="flex-1 text-center py-2.5 bg-ink dark:bg-dm-accent text-canvas dark:text-white font-body text-xs font-medium hover:bg-accent dark:hover:bg-dm-accent/80 transition-colors duration-300">
             View Live ↗
-          </a>
-          <a href={project.code} target="_blank" rel="noopener noreferrer"
-            className="flex-1 text-center py-2.5 border border-rule dark:border-dm-border text-muted dark:text-dm-muted font-body text-xs font-medium hover:border-ink dark:hover:border-dm-muted hover:text-ink dark:hover:text-dm-text transition-colors duration-300">
-            View Code ↗
           </a>
         </div>
       </div>
