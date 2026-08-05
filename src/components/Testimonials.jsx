@@ -4,17 +4,17 @@ import React, { useEffect, useRef, useState } from "react";
 const testimonials = [
   {
     id: 1,
-    quote: "Joseph delivered our website in under two weeks and it looked better than anything we'd seen from agencies charging five times more. Clean, fast, and exactly what we asked for.",
+    quote: "MJ Elite Creatives delivered our website in under two weeks and it looked better than anything we'd seen from agencies charging five times more. Clean, fast, and exactly what we asked for.",
     name: "Edwin Kariuki", role: "Founder", company: "OffGrid.ke", initial: "EK",
   },
   {
     id: 2,
-    quote: "I came with a rough idea and he turned it into something I'm genuinely proud to show people. He explained every decision, which made the whole process feel collaborative.",
+    quote: "I came with a rough idea and they turned it into something I'm genuinely proud to show people. They explained every decision, which made the whole process feel collaborative.",
     name: "Mary Wangare", role: "Owner", company: "Tebah Lights", initial: "MW",
   },
   {
     id: 3,
-    quote: "What stood out was how fast he moved without cutting corners. We went from brief to live site in 10 days. Our enquiries have noticeably increased since launch.",
+    quote: "What stood out was how fast they moved without cutting corners. We went from brief to live site in 10 days. Our enquiries have noticeably increased since launch.",
     name: "Joy Sanaipei", role: "Creative Director", company: "OffGrid.ke", initial: "JS",
   },
 ];

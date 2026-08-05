@@ -20,7 +20,7 @@ export default function About() {
     <section id="about" ref={ref} className="py-24 bg-canvas dark:bg-dm-bg">
       <div className="max-w-6xl mx-auto px-6">
         <div className="a-reveal flex items-center gap-4 mb-16" style={{ opacity: 0, transform: "translateY(16px)", transition: "all 0.6s ease" }}>
-          <span className="font-mono text-xs text-muted dark:text-dm-subtle uppercase tracking-widest">About Me</span>
+          <span className="font-mono text-xs text-muted dark:text-dm-subtle uppercase tracking-widest">About Us</span>
           <span className="flex-1 h-px bg-rule dark:bg-dm-border" />
         </div>
 
@@ -37,8 +37,8 @@ export default function About() {
               <div className="flex items-center gap-4 mb-5">
                 <div className="w-14 h-14 bg-ink dark:bg-dm-accent text-canvas dark:text-white flex items-center justify-center font-display font-bold text-xl shrink-0">JM</div>
                 <div>
-                  <p className="font-display font-bold text-ink dark:text-dm-text">Joseph Maina</p>
-                  <p className="font-body text-sm text-muted dark:text-dm-muted">Web Developer · Nairobi, KE</p>
+                  <p className="font-display font-bold text-ink dark:text-dm-text">MJ Elite Creatives</p>
+                  <p className="font-body text-sm text-muted dark:text-dm-muted">Creative Studio · Nairobi, KE</p>
                 </div>
               </div>
               <div>
@@ -63,12 +63,12 @@ export default function About() {
           <div className="md:col-span-7 space-y-6">
             <div className="a-reveal" style={{ opacity: 0, transform: "translateY(16px)", transition: "all 0.6s ease" }}>
               <p className="font-body text-base text-ink-2 dark:text-dm-muted leading-relaxed">
-                I'm a web developer focused on building clean, responsive, and user-friendly websites. I combine modern development tools with AI-powered workflows to deliver high-quality results faster and more efficiently.
+                We are a web studio focused on building clean, responsive, and user-friendly websites. We combine modern development tools with AI-powered workflows to deliver high-quality results faster and more efficiently.
               </p>
             </div>
             <div className="a-reveal" style={{ opacity: 0, transform: "translateY(16px)", transition: "all 0.6s ease" }}>
               <p className="font-body text-base text-ink-2 dark:text-dm-muted leading-relaxed">
-                My goal is simple: create websites that not only look good but also solve real problems and help businesses grow. I care about the details from how fast a page loads to whether a visitor on a budget phone in low connectivity can actually use it.
+                Our goal is simple: create websites that not only look good but also solve real problems and help businesses grow. We care about the details from how fast a page loads to whether a visitor on a budget phone in low connectivity can actually use it.
               </p>
             </div>
 

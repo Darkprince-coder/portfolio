@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from "react";
 
 const steps = [
-  { number: "01", title: "Discover", desc: "We start with a conversation. I learn about your business, your goals, and who you're trying to reach. No templates, no assumptions every project starts with understanding.", detail: "~1–2 days" },
-  { number: "02", title: "Build", desc: "I design and develop your site using modern tools. You see progress along the way and can give feedback. AI-assisted workflows help me move fast without sacrificing quality.", detail: "~5–10 days" },
-  { number: "03", title: "Launch", desc: "We review together, make final tweaks, and go live. I handle deployment and make sure everything works perfectly on every device before handing it over.", detail: "~1–2 days" },
+  { number: "01", title: "Discover", desc: "We start with a conversation. We learn about your business, your goals, and who you're trying to reach. No templates, no assumptions — every project starts with understanding.", detail: "~1–2 days" },
+  { number: "02", title: "Build", desc: "We design and develop your site using modern tools. You see progress along the way and can give feedback. AI-assisted workflows help us move fast without sacrificing quality.", detail: "~5–10 days" },
+  { number: "03", title: "Launch", desc: "We review together, make final tweaks, and go live. We handle deployment and make sure everything works perfectly on every device before handing it over.", detail: "~1–2 days" },
 ];
 
 export default function Process() {
@@ -28,7 +28,7 @@ export default function Process() {
         <div className="grid md:grid-cols-12 gap-6 mb-16 items-end">
           <div className="md:col-span-7">
             <div className="flex items-center gap-4 mb-5">
-              <span className="font-mono text-xs text-muted dark:text-dm-subtle uppercase tracking-widest">How I Work</span>
+              <span className="font-mono text-xs text-muted dark:text-dm-subtle uppercase tracking-widest">How We Work</span>
               <span className="flex-1 h-px bg-rule dark:bg-dm-border" />
             </div>
             <h2 className="font-display font-black text-4xl md:text-6xl text-ink dark:text-dm-text leading-tight">
@@ -37,7 +37,7 @@ export default function Process() {
           </div>
           <div className="md:col-span-5">
             <p className="font-body text-sm text-muted dark:text-dm-muted leading-relaxed">
-              Most developers are a black box you hand over a brief and wait. I believe in clarity, communication, and delivering exactly what was agreed, on time.
+              Most developers are a black box you hand over a brief and wait. We believe in clarity, communication, and delivering exactly what was agreed, on time.
             </p>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 // ✏️ UPDATE THESE with your real details
-const EMAIL = "josefxmaina@email.com";
+const EMAIL = "info@mjelitecreatives.com";
 const WHATSAPP = "254717813478";
 const FORMSPREE_URL = "https://formspree.io/f/xzdjlgjd";
 
@@ -54,8 +54,8 @@ export default function Contact() {
             <em className="text-accent dark:text-dm-accent">Let's build it.</em>
           </h2>
           <p className="font-body text-base text-canvas/60 dark:text-dm-muted mt-6 max-w-md leading-relaxed">
-            I'm available for freelance projects. Websites, landing pages, web apps.
-            Reach out and I'll get back to you within 24 hours.
+            We're available for freelance projects. Websites, landing pages, web apps.
+            Reach out and we'll get back to you within 24 hours.
           </p>
         </div>
 
@@ -72,7 +72,7 @@ export default function Contact() {
             </a>
 
             <a
-              href={`https://wa.me/${WHATSAPP}?text=Hi%20Joseph%2C%20I%20saw%20your%20portfolio%20and%20I%27d%20like%20to%20discuss%20a%20project.`}
+              href={`https://wa.me/${WHATSAPP}?text=Hi%20MJ%20Elite%20Creatives%2C%20I%20saw%20your%20website%20and%20I%27d%20like%20to%20discuss%20a%20project.`}
               target="_blank" rel="noopener noreferrer"
               className="group flex items-center justify-between p-5 border border-canvas/10 dark:border-dm-border hover:border-green-400 dark:hover:border-green-500 hover:bg-green-400/5 dark:hover:bg-green-500/5 transition-all duration-300">
               <div>
@@ -85,7 +85,7 @@ export default function Contact() {
             <div className="p-5 border border-canvas/10 dark:border-dm-border bg-canvas/3 dark:bg-dm-card/50">
               <p className="font-mono text-xs text-canvas/40 dark:text-dm-subtle uppercase tracking-widest mb-2">Response Time</p>
               <p className="font-body text-sm text-canvas/60 dark:text-dm-muted leading-relaxed">
-                I typically respond within <span className="text-canvas dark:text-dm-text font-medium">24 hours</span> on weekdays.
+                We typically respond within <span className="text-canvas dark:text-dm-text font-medium">24 hours</span> on weekdays.
                 For urgent requests, WhatsApp is fastest.
               </p>
             </div>
@@ -99,7 +99,7 @@ export default function Contact() {
               <div className="flex flex-col items-center justify-center py-12 text-center gap-4">
                 <span className="font-display font-bold text-5xl text-accent dark:text-dm-accent">✓</span>
                 <p className="font-display font-bold text-xl text-canvas dark:text-dm-text">Message received.</p>
-                <p className="font-body text-sm text-canvas/50 dark:text-dm-muted">I'll be in touch soon.</p>
+                <p className="font-body text-sm text-canvas/50 dark:text-dm-muted">We'll be in touch soon.</p>
                 <button
                   onClick={() => setStatus("idle")}
                   className="mt-2 font-mono text-xs text-canvas/40 dark:text-dm-subtle hover:text-canvas dark:hover:text-dm-text underline underline-offset-4 transition-colors">

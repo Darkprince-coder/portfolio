@@ -45,7 +45,7 @@ export default function Navbar({ isDark, toggleDark }) {
     }`}>
       <nav className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#home" className="font-display font-bold text-lg text-ink dark:text-dm-text tracking-tight hover:text-accent dark:hover:text-dm-accent transition-colors">
-          Joseph<span className="text-accent dark:text-dm-accent italic"> Maina</span>
+          MJ Elite<span className="text-accent dark:text-dm-accent italic"> Creatives</span>
         </a>
 
         <ul className="hidden md:flex items-center gap-10">
@@ -74,7 +74,7 @@ export default function Navbar({ isDark, toggleDark }) {
           </button>
 
           <a href="#contact" className="inline-flex items-center gap-2 px-5 py-2.5 bg-ink dark:bg-dm-accent text-canvas dark:text-white text-sm font-medium font-body hover:bg-accent dark:hover:bg-dm-accent/80 transition-colors duration-300">
-            Hire Me <span className="text-xs">↗</span>
+            Work With Us <span className="text-xs">↗</span>
           </a>
         </div>
 
@@ -104,7 +104,7 @@ export default function Navbar({ isDark, toggleDark }) {
           <li>
             <a href="#contact" onClick={() => setMenuOpen(false)}
               className="inline-flex px-5 py-2.5 bg-ink dark:bg-dm-accent text-canvas dark:text-white text-sm font-medium hover:bg-accent transition-colors">
-              Hire Me ↗
+              Work With Us ↗
             </a>
           </li>
         </ul>
